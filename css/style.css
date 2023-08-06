@@ -69,9 +69,10 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.header .logo {
   margin-right: 76px;
 }
-
 .logo-dark {
   color: var(--navyblue);
 }
@@ -102,6 +103,7 @@ button {
 }
 
 .nav-page {
+  display: flex;
   color: var(--navyblue);
   font-size: 16px;
   font-weight: 500;
@@ -123,9 +125,10 @@ button {
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
-  margin-left: 332px;
+  margin-left: auto;
 }
 .contact-mail {
+  display: flex;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -175,7 +178,7 @@ button {
   letter-spacing: 0.04em;
   color: var(--white);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  margin: 0 auto 108px auto;
+  margin: 0 auto;
   padding: 16px 32px;
 }
 
@@ -250,10 +253,15 @@ button {
 }
 .team-card-item {
   flex-basis: calc((100% - 24 * 3) / 4);
-  border-radius: 0 0 4px 4px;
 }
+
 .team-box {
   padding: 32px 0;
+  border-radius: 0px 0px 4px 4px;
+  background: var(--white);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team-img {
@@ -267,7 +275,6 @@ button {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 .team-text {
@@ -277,7 +284,6 @@ button {
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
-  margin-bottom: 32px;
 }
 /* Footer */
 .footer {
