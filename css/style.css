@@ -69,12 +69,11 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .logo-dark {
   color: var(--navyblue);
-  padding-top: 25.5px;
-  padding-bottom: 25.5;
 }
 
 .logo-white {
@@ -100,9 +99,6 @@ button {
 .header .nav {
   display: flex;
   align-items: center;
-}
-.header-logo {
-  margin-right: 76px;
 }
 
 .nav-page {
